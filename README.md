@@ -1,24 +1,25 @@
-# README
+# Welcome to My To DO app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
 
-Things you may want to cover:
+To get started with the app, clone the repo and then install the needed gems.
 
-* Ruby version
+```
+$ bundle install --without production
+```
+Next, migrate the database:
 
-* System dependencies
+```
+$ rails db:migrate
+```
+Lastly, run a test:
 
-* Configuration
+```
+$ rails test
+```
 
-* Database creation
+Now you can run the app in a local server
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails server
+```
